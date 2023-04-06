@@ -10,13 +10,18 @@
             font-family: Arial, Helvetica, sans-serif;
         }
         table{
-            width: 250px;
+            width: 400px;
+            height: 400px;
             border-collapse: collapse;
         }
         td{
             border: 1px solid black;
             padding: 5px;
-            text-align: center;
+            text-align: center; /*Alinhamento horizontal*/
+            vertical-align: middle; /*Alinhameto verical*/
+        }
+        .numero{
+            text-align: right;
         }
     </style>
  </head>
@@ -33,7 +38,7 @@
     <table>
         <tr>
             <td>A1</td>
-            <td>B1</td>
+            <td class="numero">B1</td>
             <td>C1</td>
         </tr>
         <tr>
