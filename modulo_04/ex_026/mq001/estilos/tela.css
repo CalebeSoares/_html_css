@@ -38,4 +38,7 @@ article {
     width: 600px;
     display: block;
     margin: auto;
+    line-height: 1.3em;
+    text-align: justify;
+    padding: 10px;
 }
